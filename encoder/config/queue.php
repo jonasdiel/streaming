@@ -66,6 +66,13 @@ return [
             'block_for' => null,
         ],
 
+        'async' => [
+            'driver' => 'async',
+            'table' => 'jobs',
+            'queue' => 'default',
+            'expire' => 60,
+        ],
+
     ],
 
     /*
