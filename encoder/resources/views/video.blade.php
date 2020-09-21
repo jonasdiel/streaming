@@ -77,7 +77,7 @@
                     preload="auto"
                     poster="//vjs.zencdn.net/v/oceans.png"
                     data-setup='{}'>
-                    <source src="http://localhost/video/get/{{$data['id']}}" type="video/mp4"></source>
+                    <source src="/video/get/{{$data['id']}}" type="video/mp4"></source>
                     {{--<source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"></source>--}}
                     {{--<source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"></source>--}}
                     <p class="vjs-no-js">
