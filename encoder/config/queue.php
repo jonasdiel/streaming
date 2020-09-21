@@ -64,14 +64,7 @@ return [
             'queue' => env('REDIS_QUEUE', 'default'),
             'retry_after' => 90,
             'block_for' => null,
-        ],
-
-        'async' => [
-            'driver' => 'async',
-            'table' => 'jobs',
-            'queue' => 'default',
-            'expire' => 120,
-        ],
+        ]
 
     ],
 
