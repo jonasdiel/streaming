@@ -70,7 +70,7 @@ return [
             'driver' => 'async',
             'table' => 'jobs',
             'queue' => 'default',
-            'expire' => 60,
+            'expire' => 120,
         ],
 
     ],
